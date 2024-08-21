@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">My Photography</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item"><a href="#home" class="navbar__links">Home</a></li>
+                <li class="navbar__item"><a href="#portfolio" class="navbar__links">Portfolio</a></li>
+                <li class="navbar__item"><a href="#about" class="navbar__links">About</a></li>
+                <li class="navbar__item"><a href="#contact" class="navbar__links">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero__container">
+            <h1 class="hero__heading">Capturing Moments</h1>
+            <p class="hero__description">One Shot at a Time</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="main" id="portfolio">
+        <div class="main__container">
+            <div class="main__content">
+                <h2>Portfolio</h2>
+                <p>Check out some of my favorite shots</p>
+                <!-- Add portfolio images here -->
+                <div class="portfolio__gallery">
+                    <img src="nature.jpeg" alt="Photo 1">
+                    <img src="p1.jpeg" alt="Photo 2">
+                    <img src="nature2.jpeg" alt="Photo 3">
+                </div>    
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="main" id="about">
+        <div class="main__container">
+            <div class="main__content">
+                <h2>About Me</h2>
+                <p>I'm a passionate photographer with an eye for detail...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="main" id="contact">
+        <div class="main__container">
+            <div class="main__content">
+                <h2>Contact Me</h2>
+                <p>Let's work together! Reach out through the form below.</p>
+                <!-- Add a contact form here -->            
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <p>&copy; 2024 My Photography. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
